@@ -1,0 +1,32 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 45da9109abbd526d8a870b66336f8555502bf6cb Changes
+SHA1 97b6adbe96dca2c11fa8803462b6b9b4c7ec4c6d MANIFEST
+SHA1 417354a28da0ca06ef13e91a2bdfb614e2b7b5cb MANIFEST.SKIP
+SHA1 50c3a26a985b42a9a5bd06dbed50f73be7af9965 META.yml
+SHA1 c01300fee09f6d525503ddbd91f9b40e3269d5b7 Makefile.PL
+SHA1 f57ae19eca7e985c456f53e16ba050a29937f9da README
+SHA1 b81b58a6430987e58fabd21f8e5428eb5756d94a lib/Template/Plugin/Filter/Minify/JavaScript.pm
+SHA1 0e8971db8834c45cd40f02ea3cd7efcc34634b2b t/compile.t
+SHA1 a636a9ddfe38515fd8d58be19dda98b86196d2a2 t/minify.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkrXd3UACgkQ+CqvSzp9LOyy9gCfdFArQ1JnuP5U7scbHD02iACW
+macAnRczuGkPXtTGxFJcxLYrzbA/qO2G
+=MT7O
+-----END PGP SIGNATURE-----
