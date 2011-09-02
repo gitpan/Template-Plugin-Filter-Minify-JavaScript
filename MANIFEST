@@ -1,11 +1,15 @@
 Changes
-lib/Template/Plugin/Filter/Minify/JavaScript.pm
-Makefile.PL
+LICENSE
 MANIFEST
-MANIFEST.SKIP
+MANIFEST.bak
+META.yml
+Makefile.PL
 README
+SIGNATURE
+dist.ini
+lib/Template/Plugin/Filter/Minify/JavaScript.pm
 t/compile.t
 t/minify.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
 t/signature.t
-META.yml                                 Module meta-data (added by MakeMaker)
-SIGNATURE                                Public-key signature (added by MakeMaker)
